@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANDY MAISON Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="andi_body">
+
+    <header class="andi_header">
+         <nav class="andi_nav_kiri">
+            <a href="katalog.html?kat=women" class="andi_nav_link">WOMEN</a>
+            <a href="katalog.html?kat=men" class="andi_nav_link">MEN</a>
+            <a href="parfum.html" class="andi_nav_link">FRAGRANCE</a>
+            <a href="katalog.html" class="andi_nav_link">CATALOG</a>
+        </nav>
+
+        <div class="andi_nav_tengah">
+            <a href="index.html" class="andi_logo_brand">ANDY MAISON</a>
+        </div>
+
+       <div class="andi_nav_kanan">
+            <div class="andi_nav_kanan">
+                    <a href="kontak.html" class="andi_nav_link_kontak">CONTACT US</a>
+                    <a href="#" class="andi_nav_ikon" id="andi_btn_search"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="keranjang.html" class="andi_nav_ikon andi_posisi_keranjang">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <span class="andi_badge_keranjang" id="andi_jumlah_keranjang">0</span>
+                    </a>
+                </div>
+    </header>
+    <div class="andi_search_bar" id="andi_search_bar">
+        <div class="andi_search_container">
+            <i class="fa-solid fa-magnifying-glass andi_search_ikon_input"></i>
+            <input type="text" id="andi_input_search" class="andi_input_search" placeholder="Search products (e.g. Dress, Bag, Coat, Heels)...">
+            <button type="button" id="andi_close_search" class="andi_close_search"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+    </div>
+    </header>
+    </header>
+
+    <main class="andi_konten_utama">
+
+        <section class="andi_header_kontak">
+            <h1 class="andi_judul_halaman">CONTACT US</h1>
+            <p class="andi_sub_halaman">Our advisors are available for any inquiries.</p>
+        </section>
+
+        <section class="andi_seksi_kontak">
+            <div class="andi_container">
+                <div class="andi_wrapper_kontak">
+
+                    <div class="andi_info_kontak">
+                        <h2>GET IN TOUCH</h2>
+                        
+                        <div class="andi_box_info">
+                            <h4>ADDRESS</h4>
+                            <p>91108 Rue du Faubourg Saint-Honoré, Paris</p>
+                        </div>
+
+                        <div class="andi_box_info">
+                            <h4>EMAIL</h4>
+                            <p>clientservice@andymaison.com</p>
+                        </div>
+
+                        <div class="andi_box_info">
+                            <h4>PHONE</h4>
+                            <p>+33 9 11 4 20 67</p>
+                        </div>
+                    </div>
+
+                    <form class="andi_form_kontak" onsubmit="event.preventDefault(); alert('Thank you! Your message has been sent.');">
+                        <h2>SEND MESSAGE</h2>
+
+                        <div class="andi_grup_input">
+                            <label>FULL NAME *</label>
+                            <input type="text" class="andi_input" placeholder="Your name" required>
+                        </div>
+
+                        <div class="andi_grup_input">
+                            <label>EMAIL ADDRESS *</label>
+                            <input type="email" class="andi_input" placeholder="Your email" required>
+                        </div>
+
+                        <div class="andi_grup_input">
+                            <label>SUBJECT</label>
+                            <select class="andi_input">
+                                <option value="general">General Inquiry</option>
+                                <option value="orders">Online Orders</option>
+                                <option value="boutique">Boutique Appointment</option>
+                            </select>
+                        </div>
+
+                        <div class="andi_grup_input">
+                            <label>MESSAGE *</label>
+                            <textarea class="andi_input" rows="4" placeholder="Write your message..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="andi_btn_kirim">SEND MESSAGE</button>
+                    </form>
+                        </div>
+                 </div>
+        </section>
+
+    </main>
+
+    <footer class="andi_footer">
+        <div class="andi_container">
+            <div class="andi_grid_footer">
+                
+                <div class="andi_kolom_footer andi_kolom_newsletter">
+                    <h4 class="andi_judul_footer">NEWSLETTER</h4>
+                    <p class="andi_teks_footer">Subscribe to receive private collection updates.</p>
+                    <form class="andi_form_newsletter" onsubmit="event.preventDefault();">
+                        <input type="email" placeholder="Enter your email" class="andi_input_newsletter" required>
+                        <button type="submit" class="andi_btn_newsletter">SUBSCRIBE</button>
+                    </form>
+                </div>
+
+                <div class="andi_kolom_footer">
+                    <h4 class="andi_judul_footer">CLIENT SERVICE</h4>
+                    <ul class="andi_link_footer">
+                        <li><a href="kontak.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="andi_kolom_footer">
+                    <h4 class="andi_judul_footer">ABOUT THE MAISON</h4>
+                    <ul class="andi_link_footer">
+                        <li><a href="tentang.html">Brand Philosophy</a></li>
+                        <li><a href="kontak.html">Boutique Locations</a></li>
+                    </ul>
+                </div>
+
+                <div class="andi_kolom_footer">
+                    <h4 class="andi_judul_footer">FOLLOW US</h4>
+                    <div class="andi_sosmed">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="andi_footer_bawah">
+                <p>&copy; 2026 ANDY MAISON. All Rights Reserved.</p>
+                <div class="andi_legal_links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                </div>
+             </div>
+           </div>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>

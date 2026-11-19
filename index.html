@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANDY MAISON Luxury E-Commerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="andi_body">
+
+    <header class="andi_header">
+        <nav class="andi_nav_kiri">
+            <a href="katalog.html?kat=women" class="andi_nav_link">WOMEN</a>
+            <a href="katalog.html?kat=men" class="andi_nav_link">MEN</a>
+            <a href="parfum.html" class="andi_nav_link">FRAGRANCE</a>
+            <a href="katalog.html" class="andi_nav_link">CATALOG</a>
+        </nav>
+
+        <div class="andi_nav_tengah">
+            <a href="index.html" class="andi_logo_brand">ANDY MAISON</a>
+        </div>
+
+       <div class="andi_nav_kanan">
+            <div class="andi_nav_kanan">
+                    <a href="kontak.html" class="andi_nav_link_kontak">CONTACT US</a>
+                    <a href="#" class="andi_nav_ikon" id="andi_btn_search"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="keranjang.html" class="andi_nav_ikon andi_posisi_keranjang">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <span class="andi_badge_keranjang" id="andi_jumlah_keranjang">0</span>
+                    </a>
+                </div>
+    </header>
+    <div class="andi_search_bar" id="andi_search_bar">
+        <div class="andi_search_container">
+            <i class="fa-solid fa-magnifying-glass andi_search_ikon_input"></i>
+            <input type="text" id="andi_input_search" class="andi_input_search" placeholder="Search products (e.g. Dress, Bag, Coat, Heels)...">
+            <button type="button" id="andi_close_search" class="andi_close_search"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+    </div>
+    </header>
+
+    <main class="andi_konten_utama">
+
+        <section class="andi_hero_split">
+            <div class="andi_hero_kiri">
+                <div class="andi_kiri_konten">
+                    <p class="andi_kiri_label"> WINTER COLLECTION 2026</p>
+                    <h1 class="andi_kiri_judul">ANDY<br>MAISON</h1>
+                    <p class="andi_kiri_deskripsi">Redefining the boundaries of luxury with modern elegance and fine craftsmanship.</p>
+                    <a href="katalog.html" class="andi_tombol_utama">EXPLORE THE COLLECTION</a>
+                </div>
+            </div>
+
+            <div class="andi_hero_kanan">
+                <div class="andi_slider_container">
+                    <div class="andi_slider_track">
+                        <!-- Slide 1 -->
+                        <div class="andi_slide_item">
+                            <img src="images/midnightdress.png" alt="Silk Midnight Dress" class="andi_slide_gambar">
+                            <div class="andi_slide_info">
+                                <h3>Silk Midnight Dress</h3>
+                                <p>New Arrival</p>
+                            </div>
+                        </div>
+
+                        <!-- Slide 2 -->
+                        <div class="andi_slide_item">
+                            <img src="images/obsidiancoatindex.png" alt="The Obsidian Coat" class="andi_slide_gambar">
+                            <div class="andi_slide_info">
+                                <h3>The Obsidian Coat</h3>
+                                <p>Winter Collection '26</p>
+                            </div>
+                        </div>
+
+                        <!-- Slide 3 -->
+                        <div class="andi_slide_item">
+                            <img src="images/noirsuit.jpg" alt="Tailored Noir Suit" class="andi_slide_gambar">
+                            <div class="andi_slide_info">
+                                <h3>Tailored Noir Suit</h3>
+                                <p>Menswear Exclusive</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="andi_slider_navigasi">
+                        <button class="andi_btn_slider" id="andi_prev_slide"><i class="fa-solid fa-arrow-left"></i></button>
+                        <button class="andi_btn_slider" id="andi_next_slide"><i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="andi_seksi_trending">
+            <div class="andi_container">
+                <div class="andi_header_seksi">
+                    <h2 class="andi_judul_seksi">CURRENTLY TRENDING</h2>
+                    <p class="andi_sub_seksi">Curated essentials from our flagship boutique this season.</p>
+                </div>
+
+                <div class="andi_grid_trending">
+                    <div class="andi_kartu_trending">
+                        <div class="andi_box_gambar">
+                            <img src="images/RedBag.jpg" class="andi_gambar_produk">
+                        </div>
+                        <h3 class="andi_nama_item">Maison Noir Bag</h3>
+                        <p class="andi_kategori_item">Leather Goods</p>
+                        <p class="andi_harga_item">$1,250</p>
+                    </div>
+
+                    <div class="andi_kartu_trending">
+                        <div class="andi_box_gambar">
+                            <img src="images/highheels.jpg" alt="Leather Stiletto Heels" class="andi_gambar_produk">
+                        </div>
+                        <h3 class="andi_nama_item">Leather Stiletto Heels</h3>
+                        <p class="andi_kategori_item">Footwear</p>
+                        <p class="andi_harga_item">$890</p>
+                    </div>
+
+                    <div class="andi_kartu_trending">
+                        <div class="andi_box_gambar">
+                            <img src="images/midnightdress.png" alt="Silk Midnight Dress" class="andi_gambar_produk">
+                        </div>
+                        <h3 class="andi_nama_item">Silk Midnight Dress</h3>
+                        <p class="andi_kategori_item">Ready-to-Wear</p>
+                        <p class="andi_harga_item">$1,520</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="andi_footer">
+        <div class="andi_container">
+            <div class="andi_grid_footer">
+                
+                <div class="andi_kolom_footer andi_kolom_newsletter">
+                    <h4 class="andi_judul_footer">NEWSLETTER</h4>
+                    <p class="andi_teks_footer">Subscribe to receive private collection updates and exclusive invitations.</p>
+                    <form class="andi_form_newsletter" onsubmit="event.preventDefault();">
+                        <input type="email" placeholder="Enter your email address" class="andi_input_newsletter" required>
+                        <button type="submit" class="andi_btn_newsletter">SUBSCRIBE</button>
+                    </form>
+                </div>
+
+                <div class="andi_kolom_footer">
+                    <h4 class="andi_judul_footer">CLIENT SERVICE</h4>
+                    <ul class="andi_link_footer">
+                        <li><a href="kontak.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="andi_kolom_footer">
+                    <h4 class="andi_judul_footer">ABOUT THE MAISON</h4>
+                    <ul class="andi_link_footer">
+                        <li><a href="tentang.html">Brand Philosophy</a></li>
+                        <li><a href="kontak.html">Boutique Locations</a></li>
+                    </ul>
+                </div>
+
+                <div class="andi_kolom_footer">
+                    <h4 class="andi_judul_footer">FOLLOW US</h4>
+                    <div class="andi_sosmed">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="andi_footer_bawah">
+                <p>&copy; 2026 ANDY MAISON. All Rights Reserved.</p>
+                <div class="andi_legal_links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="script.js" defer></script>
+</body>
+</html>

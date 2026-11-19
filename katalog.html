@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog  ANDY MAISON</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="andi_body">
+
+    <header class="andi_header">
+        <nav class="andi_nav_kiri">
+            <a href="katalog.html?kat=women" class="andi_nav_link">WOMEN</a>
+            <a href="katalog.html?kat=men" class="andi_nav_link">MEN</a>
+            <a href="parfum.html" class="andi_nav_link">FRAGRANCE</a>
+            <a href="katalog.html" class="andi_nav_link">CATALOG</a>
+        </nav>
+
+        <div class="andi_nav_tengah">
+            <a href="index.html" class="andi_logo_brand">ANDY MAISON</a>
+        </div>
+
+         <div class="andi_nav_kanan">
+            <div class="andi_nav_kanan">
+                    <a href="kontak.html" class="andi_nav_link_kontak">CONTACT US</a>
+                    <a href="#" class="andi_nav_ikon" id="andi_btn_search"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="keranjang.html" class="andi_nav_ikon andi_posisi_keranjang">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <span class="andi_badge_keranjang" id="andi_jumlah_keranjang">0</span>
+                    </a>
+                </div>
+    </header>
+    <div class="andi_search_bar" id="andi_search_bar">
+        <div class="andi_search_container">
+            <i class="fa-solid fa-magnifying-glass andi_search_ikon_input"></i>
+            <input type="text" id="andi_input_search" class="andi_input_search" placeholder="Search products (e.g. Dress, Bag, Coat, Heels)...">
+            <button type="button" id="andi_close_search" class="andi_close_search"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+    </div>
+    </header>
+    <!-- KONTEN UTAMA Katalog -->
+    <main class="andi_konten_utama">
+        
+        <!-- BAGIAN 1: KOLEKSI SPESIFIK (WINTER COLLECTION) -->
+        <section class="andi_katalog_spesifik" style="padding-top: 60px;">
+            <div style="text-align: center; margin-bottom: 20px;">
+                <p style="font-family: 'Montserrat', sans-serif; font-size: 0.8rem; color: #777; letter-spacing: 2px;">EXCLUSIVE RELEASE</p>
+                <h2 style="font-family: 'Playfair Display', serif; font-size: 2.2rem; color: #111;">Winter Collection '26</h2>
+            </div>
+            
+            <div class="andi_katalog_grid">
+                <div class="andi_produk_item">
+                    <div class="andi_gambar_wrapper">
+                        <img src="images/midnightdress.png" alt="Silk Midnight Dress" class="andi_produk_img">
+                    </div>
+                    <h3 class="andi_produk_judul">Silk Midnight Dress</h3>
+                    <p class="andi_produk_harga">$ 1,250</p>
+                </div>
+
+                <div class="andi_produk_item">
+                    <div class="andi_gambar_wrapper">
+                        <img src="images/noirgown.png" alt="Velvet Noir Gown" class="andi_produk_img">
+                    </div>
+                    <h3 class="andi_produk_judul">Velvet Noir Gown</h3>
+                    <p class="andi_produk_harga">$ 1,450</p>
+                </div>
+                <div class="andi_produk_item">
+                    <div class="andi_gambar_wrapper">
+                        <img src="images/obsidiancoat.jpg" alt="The Obsidian coat" class="andi_produk_img">
+                    </div>
+                    <h3 class="andi_produk_judul">The Obsidian coat</h3>
+                    <p class="andi_produk_harga">$ 2,100</p>
+                </div>
+
+                <div class="andi_produk_item">
+                    <div class="andi_gambar_wrapper">
+                        <img src="images/Onyxcoat.jpg" alt="Onyx Silk Coat" class="andi_produk_img">
+                    </div>
+                    <h3 class="andi_produk_judul">Onyx Silk Coat</h3>
+                    <p class="andi_produk_harga">$ 1,250</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- GARIS PEMISAH ELEGAN -->
+        <div style="width: 60%; margin: 40px auto; border-bottom: 1px solid #e0e0e0;"></div>
+            <!-- BAGIAN 2: SEMUA PRODUK -->
+        <section class="andi_katalog_semua" style="padding-top: 20px;">
+            <div style="text-align: center; margin-bottom: 20px;">
+                <h2 style="font-family: 'Playfair Display', serif; font-size: 2.2rem; color: #111;">All Products</h2>
+                <p style="font-family: 'Montserrat', sans-serif; font-size: 0.9rem; color: #777;">From ready-to-wear to luxury footwear.</p>
+            </div>
+            <div class="andi_filter_kategori">
+                <a href="#" class="andi_filter_aktif" data-filter="all">ALL</a>
+                <a href="#" data-filter="women">WOMEN</a>
+                <a href="#" data-filter="men">MEN</a>
+                <a href="#" data-filter="dresses">DRESSES</a>
+                <a href="#" data-filter="bags">BAGS</a>
+                <a href="#" data-filter="footwear">FOOTWEAR</a>
+                <a href="#" data-filter="collections">COLLECTIONS</a>
+            </div>
+        
+            
+            <div class="andi_katalog_grid">
+                <!-- Produk 1 -->
+                <div class="andi_produk_item" data-kategori="women bags collections">
+                    <div class="andi_gambar_wrapper">
+                        <img src="images/RedBag.jpg" alt="Maison Noir Bag" class="andi_produk_img">
+                    </div>
+                    <h3 class="andi_produk_judul">Maison Noir Bag</h3>
+                    <p class="andi_produk_harga">$ 1,250</p>
+                </div>
+
+                <!-- Produk 2 -->
+                <div class="andi_produk_item" data-kategori="women footwear">
+                    <div class="andi_gambar_wrapper">
+                        <img src="images/highheels.jpg" alt="Leather Stiletto Heels" class="andi_produk_img">
+                    </div>
+                    <h3 class="andi_produk_judul">Leather Stiletto Heels</h3>
+                    <p class="andi_produk_harga">$ 890</p>
+                </div>
+
+                <!-- Produk 3 -->
+                <div class="andi_produk_item" data-kategori="women bags">
+                    <div class="andi_gambar_wrapper">
+                        <img src="images/crimsontote.jpg" alt="Crimson Tote" class="andi_produk_img">
+                    </div>
+                    <h3 class="andi_produk_judul">Crimson Tote</h3>
+                    <p class="andi_produk_harga">$ 1,100</p>
+                </div>
+
+                <!-- Produk 4 -->
+                <div class="andi_produk_item" data-kategori="women footwear">
+                    <div class="andi_gambar_wrapper">
+                        <img src="images/ivoryslingback.jpg" alt="Ivory Slingbacks" class="andi_produk_img">
+                    </div>
+                    <h3 class="andi_produk_judul">Ivory Slingbacks</h3>
+                    <p class="andi_produk_harga">$ 650</p>
+                </div>
+
+                <!-- Produk 5 -->
+                <div class="andi_produk_item" data-kategori="women dresses collections">
+                    <div class="andi_gambar_wrapper">
+                        <img src="images/midnightdress.png" alt="Silk Midnight Dress" class="andi_produk_img">
+                    </div>
+                    <h3 class="andi_produk_judul">Silk Midnight Dress</h3>
+                    <p class="andi_produk_harga">$ 1,250</p>
+                </div>
+
+                <!-- Produk 6 -->
+                <div class="andi_produk_item" data-kategori="women dresses">
+                    <div class="andi_gambar_wrapper">
+                        <img src="images/noirgown.png" alt="Velvet Noir Gown" class="andi_produk_img">
+                    </div>
+                    <h3 class="andi_produk_judul">Velvet Noir Gown</h3>
+                    <p class="andi_produk_harga">$ 1,450</p>
+                </div>
+
+                <!-- Produk 7 -->
+                <div class="andi_produk_item" data-kategori="men collections">
+                    <div class="andi_gambar_wrapper">
+                        <img src="images/noirsuit.jpg" alt="Tailored Noir Suit" class="andi_produk_img">
+                    </div>
+                    <h3 class="andi_produk_judul">Tailored Noir Suit</h3>
+                    <p class="andi_produk_harga">$ 1,680</p>
+                </div>
+
+                <!-- Produk 8-->
+                <div class="andi_produk_item" data-kategori="men footwear">
+                    <div class="andi_gambar_wrapper">
+                        <img src="images/loafersmen.jpg" alt="Leather Oxford Loafers" class="andi_produk_img">
+                    </div>
+                    <h3 class="andi_produk_judul">Leather Oxford Loafers</h3>
+                    <p class="andi_produk_harga">$ 980</p>
+                </div>
+                 <!-- Produk 9-->
+                <div class="andi_produk_item" data-kategori="women dresses">
+                    <div class="andi_gambar_wrapper">
+                        <img src="images/onyxcoat.jpg" alt="Onyx Silk Coat" class="andi_produk_img">
+                    </div>
+                    <h3 class="andi_produk_judul">Onyx Silk Coat</h3>
+                    <p class="andi_produk_harga">$ 1,250</p>
+                </div>
+                 <!-- Produk 10-->
+                <div class="andi_produk_item" data-kategori="women dresses">
+                    <div class="andi_gambar_wrapper">
+                        <img src="images/obsidiancoat.jpg" alt="The Obsidian coat" class="andi_produk_img">
+                    </div>
+                    <h3 class="andi_produk_judul">The Obsidian coat</h3>
+                    <p class="andi_produk_harga">$ 2,100</p>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="andi_footer">
+        <div class="andi_container">
+            <div class="andi_grid_footer">
+                
+                <div class="andi_kolom_footer andi_kolom_newsletter">
+                    <h4 class="andi_judul_footer">NEWSLETTER</h4>
+                    <p class="andi_teks_footer">Subscribe to receive private collection updates and exclusive invitations.</p>
+                    <form class="andi_form_newsletter" onsubmit="event.preventDefault();">
+                        <input type="email" placeholder="Enter your email address" class="andi_input_newsletter" required>
+                        <button type="submit" class="andi_btn_newsletter">SUBSCRIBE</button>
+                    </form>
+                </div>
+
+                <div class="andi_kolom_footer">
+                    <h4 class="andi_judul_footer">CLIENT SERVICE</h4>
+                    <ul class="andi_link_footer">
+                        <li><a href="kontak.html">Contact Us</a></li>
+                        
+                    </ul>
+                </div>
+
+                <div class="andi_kolom_footer">
+                    <h4 class="andi_judul_footer">ABOUT THE MAISON</h4>
+                    <ul class="andi_link_footer">
+                        <li><a href="tentang.html">Brand Philosophy</a></li>
+                        <li><a href="kontak.html">Boutique Locations</a></li>
+                    </ul>
+                </div>
+
+                <div class="andi_kolom_footer">
+                    <h4 class="andi_judul_footer">FOLLOW US</h4>
+                    <div class="andi_sosmed">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="andi_footer_bawah">
+                <p>&copy; 2026 ANDY MAISON. All Rights Reserved.</p>
+                <div class="andi_legal_links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
