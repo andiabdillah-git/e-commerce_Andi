@@ -1215,7 +1215,7 @@ body.andi_body {
     transform: translateY(0);
 }
 
-/*Halaman About / Brand Philosophy*/
+/*Halaman About atau Brand Philosophy*/
 .andi_seksi_about {
     background-color: var(--andi-terang);
     padding-bottom: 90px;
@@ -1293,5 +1293,52 @@ body.andi_body {
     }
     .andi_judul_about {
         font-size: 2.2rem;
+    }
+}
+/* Phone Something */
+
+@media (max-width: 900px) {
+    .andi_header {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 14px 16px;
+        gap: 10px 14px;
+    }
+
+    .andi_nav_tengah {
+        order: 1;
+        width: 100%;
+        text-align: center;
+    }
+
+    .andi_logo_brand {
+        font-size: 1.4rem;
+        letter-spacing: 4px;
+    }
+
+    .andi_nav_kiri {
+        order: 2;
+        width: auto;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .andi_nav_kanan {
+        order: 3;
+        width: auto;
+        justify-content: center;
+        gap: 14px;
+    }
+
+    .andi_nav_link,
+    .andi_nav_link_kontak {
+        font-size: 0.68rem;
+        letter-spacing: 1.2px;
+        margin-right: 0;
+    }
+
+    .andi_search_bar {
+        padding: 12px 16px;
     }
 }
